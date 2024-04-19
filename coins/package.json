@@ -47,7 +47,7 @@
     "@ethersproject/bignumber": "^5.5.0",
     "@sentry/serverless": "^6.19.7",
     "@sentry/tracing": "^6.19.7",
-    "@solana/web3.js": "^1.73.3",
+    "@solana/web3.js": "^1.91.3",
     "@supercharge/promise-pool": "^2.1.0",
     "axios": "^1.6.7",
     "dayjs": "^1.11.10",
