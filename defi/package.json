@@ -96,7 +96,7 @@
     "@types/promise.allsettled": "^1.0.6",
     "axios": "^1.6.5",
     "bignumber.js": "^9.0.1",
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.4.5",
     "ethers": "^6.0.0",
     "hyper-express": "^6.8.7",
     "lodash": "^4.17.21",
