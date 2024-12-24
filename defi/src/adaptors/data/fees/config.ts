@@ -1020,10 +1020,6 @@ export default {
         "enabled": false, // has several dates with { "error" : { "S" : "Request failed with status code 500" } }
         "id": "3129"
     },
-    "aerodrome": {
-        parentId: "Aerodrome",
-        "id": "3450"
-    },
     "apex": {
         parentId: "ApeX Protocol",
         "id": "1878"
@@ -2272,5 +2268,25 @@ export default {
     },
     "emojicoin": {
         id: "5454"
+    },
+    "invariant": {
+        id: "1788"
+    },
+    "memejob": {
+        id: "5533"
+    },
+    "hyperliquid": {
+        parentId: "Hyperliquid",
+        displayName: "HyperLiquid",
+        id: "4482"
+    },
+    "liquidity-slicing": {
+        id: "5297"
+    },
+    "zivoe": {
+        id: "5551"
+    },
+    "rabbitswap-v3": {
+        id: "5298"
     }
 } as AdaptorsConfig

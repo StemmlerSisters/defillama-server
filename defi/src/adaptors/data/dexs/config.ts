@@ -1719,10 +1719,6 @@ export default {
     "danogo": {
         "id": "3454"
     },
-    "aerodrome": {
-        parentId: "Aerodrome",
-        "id": "3450"
-    },
     "morphex-old": {
         parentId: "Morphex",
         "protocolsData": {
@@ -2676,5 +2672,11 @@ export default {
     },
     "goblin-dex": {
         id: "5531"
+    },
+    "invariant": {
+        id: "1788"
+    },
+    "rabbitswap-v3": {
+        id: "5298"
     }
 } as AdaptorsConfig

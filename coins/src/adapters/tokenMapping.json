@@ -1,4 +1,11 @@
 {
+  "alephium": {
+    "19246e8c2899bc258a1156e08466e3cdd3323da756d8a543c7fc911847b96f00": {
+      "decimals": "18",
+      "symbol": "WETH",
+      "to": "coingecko#ethereum"
+    }
+  },
   "kava": {
     "0x0000000000000000000000000000000000000000": {
       "decimals": "18",
@@ -259,6 +266,11 @@
     }
   },
   "ethereum": {
+    "0x7DC9748DA8E762e569F9269f48F69A1a9F8Ea761": {
+      "decimals": "6",
+      "symbol": "zeUSD",
+      "to": "coingecko#usd-coin"
+    },
     "0x8BB97A618211695f5a6a889faC3546D1a573ea77": {
       "decimals": "8",
       "symbol": "NBTC",
@@ -521,7 +533,7 @@
   },
   "bsc": {
     "0x55d398326f99059ff775485246999027b3197955": {
-    "decimals": "18",
+      "decimals": "18",
       "symbol": "USDT",
       "to": "coingecko#tether"
     },
@@ -615,6 +627,11 @@
       "to": "coingecko#ignition-fbtc",
       "decimals": 8,
       "symbol": "lfbtc-pump-bsc"
+    },
+    "0x26c5e01524d2E6280A48F2c50fF6De7e52E9611C": {
+      "decimals": "18",
+      "symbol": "wstETH",
+      "to": "asset#ethereum:0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
     }
   },
   "stacks": {
@@ -647,6 +664,11 @@
       "to": "coingecko#blockstack",
       "decimals": 6,
       "symbol": "vlqSTX"
+    },
+    "SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-token::sbtc-token": {
+      "to": "coingecko#bitcoin",
+      "decimals": 8,
+      "symbol": "sBTC"
     }
   },
   "arbitrum": {
@@ -1451,6 +1473,11 @@
     }
   },
   "op_bnb": {
+    "0xf7fb2df9280eb0a76427dc3b34761db8b1441a49": {
+      "decimals": "18",
+      "symbol": "uBTC",
+      "to": "asset#bsquared:0x796e4d53067ff374b89b2ac101ce0c1f72ccaac2"
+    },
     "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3": {
       "to": "coingecko#tether",
       "decimals": "18",
@@ -2585,6 +2612,11 @@
     }
   },
   "mode": {
+    "0xd0d1b59ca62ce194e882455fd36632d6277b192a": {
+      "decimals": "18",
+      "symbol": "uBTC",
+      "to": "asset#bsquared:0x796e4d53067ff374b89b2ac101ce0c1f72ccaac2"
+    },
     "0x4186BFC76E2E237523CBC30FD220FE055156b41F": {
       "decimals": "18",
       "symbol": "rsETH",

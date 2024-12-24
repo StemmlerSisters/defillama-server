@@ -34,7 +34,7 @@ export function normalizeChain(chain: string) {
 
 
 export function isDoubleCounted(moduleDoubleCounted?: boolean, category?: string) {
-  return moduleDoubleCounted === true || (category === "Yield Aggregator" || category === "Yield");
+  return moduleDoubleCounted === true || ["Yield Aggregator", "Yield", "Liquidity manager", "Managed Token Pools","Treasury Manager"].includes(category??"none");
 }
 
 export const nonChains = ['PK', 'SK', 'tvl', 'tvlPrev1Hour', 'tvlPrev1Day', 'tvlPrev1Week']
@@ -3607,6 +3607,25 @@ export const chainCoingeckoIds = {
     twitter: "elys_network",
     url: "https://elys.network/",
     github: ["elys-network"],
+  },
+  "Odyssey": {
+    geckoId: "dione",
+    symbol: "DIONE",
+    cmcId: "21473",
+    categories: ["EVM"],
+    twitter: "DioneProtocol",
+    url: "https://www.dioneprotocol.com/",
+    github: ["DioneProtocol"],
+    chainId: 153153
+  },
+  "Kopi": {
+    geckoId: null,
+    symbol: null,
+    cmcId: null,
+    categories: ["Cosmos"],
+    twitter: "kopi_money",
+    url: "https://kopi.money",
+    github: ["kopi-money"],
   },
 } as unknown as ChainCoinGekcoIds
 

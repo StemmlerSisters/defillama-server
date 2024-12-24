@@ -5,18 +5,22 @@ import {
   fetchCgPriceData,
   getBasicCoins,
 } from "./utils/getCoinsUtils";
-// import { getCache, setCache } from "./utils/cache";
 import { setTimer } from "./utils/shared/coingeckoLocks";
 import setEnvSecrets from "./utils/shared/setEnvSecrets";
+import { getR2, storeR2JSONString } from "./utils/r2";
 console.log("imports done");
 const margin = 5 * 60; // 5 mins
 
 const handler = async (event: any): Promise<IResponse> => {
-  // process.env.READABLE_STREAM = "disable";
   await setEnvSecrets();
+  process.env.tableName = "prod-coins-table";
   console.log("entered handler");
   const start = new Date().getTime();
-  // const bulkPromise = getCache("coins-swap", "bulk");
+  console.log("fetching r2");
+  const bulkPromise = await getR2(`updated-coins`).then((r) =>
+    JSON.parse(r.body!),
+  );
+  console.log("fetched r2");
   const unixStart = Math.floor(start / 1000);
   setTimer();
 
@@ -28,24 +32,24 @@ const handler = async (event: any): Promise<IResponse> => {
 
   const response = {} as CoinsResponse;
   const cgIds: { [pk: string]: string } = {};
-  // let bulk: { [id: string]: any } = await bulkPromise;
+  let bulk: { [id: string]: any } = bulkPromise;
   coins.map((d) => {
-    // if (d.PK in bulk && bulk[d.PK] > unixStart - margin) return;
+    if (d.PK in bulk && bulk[d.PK] > unixStart - margin) return;
     if (d.timestamp && d.timestamp > unixStart - margin) return;
     if (!d.redirect || !d.redirect.startsWith("coingecko#")) return;
 
     const id = d.redirect.substring(d.redirect.indexOf("#") + 1);
-    // if (id in bulk && bulk[id] > unixStart - margin) return;
+    if (id in bulk && bulk[id] > unixStart - margin) return;
 
     cgIds[d.PK] = id;
-    // bulk[id] = unixStart;
+    bulk[id] = unixStart;
   });
 
   console.log(`mapped`);
   if (!Object.keys(cgIds).length) return successResponse({});
   console.log(`fetching from cg`);
-  const newData = await fetchCgPriceData(Object.values(cgIds));
-  console.log(`new data length: ${coins.length}`);
+  const newData = await fetchCgPriceData(Object.values(cgIds), true);
+  console.log(`new data length: ${newData.length}`);
 
   const writes: any[] = [];
   coins.map(async ({ PK, symbol, decimals }) => {
@@ -59,7 +63,7 @@ const handler = async (event: any): Promise<IResponse> => {
       last_updated_at: SK,
     } = newData[id];
 
-    // bulk[PK] = unixStart;
+    bulk[PK] = unixStart;
     response[PKTransforms[PK]] = {
       decimals,
       price,
@@ -68,7 +72,7 @@ const handler = async (event: any): Promise<IResponse> => {
       confidence,
     };
 
-    // if (PK in bulk && bulk[PK] > unixStart - margin / 2) return;
+    if (PK in bulk && bulk[PK] > unixStart - margin / 2) return;
     writes.push(
       ...[
         {
@@ -94,7 +98,7 @@ const handler = async (event: any): Promise<IResponse> => {
   console.log(`writes length: ${writes.length}`);
   await Promise.all([
     batchWrite(writes, false),
-    // setCache("coins-swap", "bulk", bulk),
+    storeR2JSONString("updated-coins", JSON.stringify(bulk)),
   ]);
 
   console.log(`writes written`);
@@ -111,7 +115,7 @@ export default wrap(handler);
 
 // handler({
 //   pathParameters: {
-//     coins: "ethereum:0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+//     coins: "ethereum:0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
 //   },
 // });
 // ts-node coins/src/updateCoin.ts
