@@ -91,7 +91,7 @@
     "@types/node": "^18.0.0",
     "@types/node-fetch": "^2.5.10",
     "@types/promise.allsettled": "^1.0.6",
-    "axios": "^1.6.5",
+    "axios": "^1.8.3",
     "bignumber.js": "^9.0.1",
     "buffer-layout": "^1.2.2",
     "dotenv": "^16.0.1",
