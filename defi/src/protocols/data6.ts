@@ -1409,5 +1409,22 @@ const data6: Protocol[] = [
     github: ["bundie-fi"],
     listedAt: 1777576628
   },
+  {
+    id: "7774",
+    name: "Arweave",
+    address: null,
+    symbol: "AR",
+    url: "https://arweave.org/",
+    description: "Arweave is a decentralized permanent storage network that lets users pay once to store data onchain-like, with node incentives designed to keep the data available indefinitely",
+    chain: "Arweave",
+    logo: `${baseIconsUrl}/arweave.jpg`,
+    audits: "0",
+    gecko_id: "arweave",
+    cmcId: "5632",
+    category: "Chain",
+    chains: ["Arweave"],
+    module: "dummy.js",
+    twitter: "ArweaveEco",
+  },
 ];
 export default data6;
