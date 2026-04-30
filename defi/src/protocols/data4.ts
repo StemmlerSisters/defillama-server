@@ -17072,6 +17072,7 @@ const data4: Protocol[] = [
     twitter: "Agglayer",
     audit_links: ["https://github.com/agglayer/vault-bridge/tree/v0.5.0/audits"],
     listedAt: 1749770022,
+    oraclesBreakdown: [{name: "Chainlink", type: "Primary", proof: ["https://app.morpho.org/ethereum/vault/0xBEefb9f61CC44895d8AEc381373555a64191A9c4/vault-bridge-usdc#overview","https://app.morpho.org/ethereum/vault/0xc54b4E08C1Dcc199fdd35c6b5Ab589ffD3428a8d/vault-bridge-usdt#overview","https://app.morpho.org/ethereum/vault/0x31A5684983EeE865d943A696AAC155363bA024f9/vault-bridge-weth#overview"]}],
     dimensions: {
       fees: "vault-bridge"
     }
