@@ -1389,5 +1389,25 @@ const data6: Protocol[] = [
     twitter: null,
     listedAt: 1777517385
   },
+  {
+    id: "7773",
+    name: "Bundie",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://bundie.fi
+    description: "Bundie allows anyone to bundle DeFi yield strategies across multiple chains for AI agents and humans to invest in",
+    chain: "Base",
+    logo: `${baseIconsUrl}/bundie.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "Yield Aggregator",
+    chains: ["Base", "Scroll", "Arbitrum", "Avalanche", "Optimism"],
+    module: "bundie/index.js",
+    twitter: "BundieDefi",
+    audit_links: ["https://sherlock-files.ams3.digitaloceanspaces.com/reports/2026.04.09%20-%20Final%20-%20Bundie%20Collaborative%20Audit%20Report%201775738963.pdf"],
+    github: ["bundie-fi"],
+    listedAt: 1777576628
+  },
 ];
 export default data6;

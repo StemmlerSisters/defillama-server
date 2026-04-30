@@ -21661,6 +21661,10 @@ const data4: Protocol[] = [
     module: "honeypop/index.js",
     twitter: "honeypop_app",
     listedAt: 1753803213,
+    dimensions: {
+      dexs: "honeypop-dex",
+      fees: "honeypop-dex"
+    }
   },
   {
     id: "6497",
