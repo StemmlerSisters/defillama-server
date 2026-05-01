@@ -16912,7 +16912,12 @@ const data5: Protocol[] = [
     chains: ["Ethereum"],
     module: "dango-bridge/index.js",
     twitter: "dango",
-    listedAt: 1776224283
+    listedAt: 1776224283,
+    dimensions: {
+      dexs: "dango",
+      fees: "dango",
+      "open-interest": "dango-oi",
+    }
   },
   {
     id: "7672",

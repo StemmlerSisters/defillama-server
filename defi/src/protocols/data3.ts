@@ -60589,7 +60589,11 @@ const data3_3: Protocol[] = [
     twitter: "ubeswap",
     forkedFromIds: ["2198"],
     parentProtocol: "parent#ubeswap",
-    listedAt: 1732790969
+    listedAt: 1732790969,
+    dimensions: {
+      fees: "ubeswap-v3",
+      dexs: "ubeswap-v3",
+    }
   },
   {
     id: "5433",

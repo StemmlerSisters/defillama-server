@@ -1444,5 +1444,23 @@ const data6: Protocol[] = [
     twitter: "ryoshiwithknife",
     listedAt: 1777600134
   },
+  {
+    id: "7776",
+    name: "Nerona",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://app.nerona.xyz//
+    description: "Nerona is a Fluent-based stablecoin app built around USDnr, a yield-bearing stablecoin that routes deposits into onchain yield and connects users to lending, card, and investment products",
+    chain: "Fluent",
+    logo: `${baseIconsUrl}/nerona.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Yield Aggregator",
+    chains: ["Fluent","Ethereum"],
+    module: "nerona-usd/index.js",
+    twitter: "Neronaxyz",
+    listedAt: 1777660684
+  },
 ];
 export default data6;
