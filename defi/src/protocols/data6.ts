@@ -1425,6 +1425,7 @@ const data6: Protocol[] = [
     chains: ["Arweave"],
     module: "dummy.js",
     twitter: "ArweaveEco",
+    disabled: "disabled in favor of chain listing in normalizeChain.ts"
   },
   {
     id: "7775",
