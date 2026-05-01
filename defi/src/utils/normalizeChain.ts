@@ -5970,6 +5970,9 @@ export const chainCoingeckoIds = {
     cmcId: "5632",
     twitter: "ArweaveEco",
     url: "https://arweave.org/",
+    dimensions: {
+      fees: "arweave",
+    },
   },
 } as unknown as ChainCoinGekcoIds;
 
