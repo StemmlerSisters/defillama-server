@@ -1426,5 +1426,23 @@ const data6: Protocol[] = [
     module: "dummy.js",
     twitter: "ArweaveEco",
   },
+  {
+    id: "7775",
+    name: "Ryoshi Royale",
+    address: "cronos:0x055c517654d72A45B0d64Dc8733f8A38E27Fd49C",
+    symbol: "RYOSHI",
+    url: " ", // pending to add url https://ryoshiroyale.com/
+    description: "Ryoshi Royale is an NFT-based battle arena platform built on the Cronos blockchain that transforms Ryoshi NFTs into playable heroes for competitive gaming. Players can customize their Ryoshi with equipment and training points in order to compete in strategic daily and weekly battles to earn cryptocurrency rewards",
+    chain: "Cronos",
+    logo: `${baseIconsUrl}/ryoshi-royale.jpg`,
+    audits: "0",
+    gecko_id: "ryoshi-with-knife",
+    cmcId: null,
+    category: "Gaming",
+    chains: ["Cronos"],
+    module: "ryoshi-royale/index.js",
+    twitter: "ryoshiwithknife",
+    listedAt: 1777600134
+  },
 ];
 export default data6;
