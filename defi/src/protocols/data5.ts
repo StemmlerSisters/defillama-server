@@ -6959,8 +6959,18 @@ const data5: Protocol[] = [
     twitter: "kumbaya_xyz",
     listedAt: 1767124597,
     dimensions: {
-      fees: "kumbaya",
-      dexs: "kumbaya",
+      fees: {
+        adapter: "kumbaya",
+        genuineSpikes: [
+          ["2026-04-30", '-']
+        ]
+      },
+      dexs: {
+        adapter: "kumbaya",
+        genuineSpikes: [
+          ["2026-04-30", 'MegaETH token TGE']
+        ]
+      },
     },
   },
   {
