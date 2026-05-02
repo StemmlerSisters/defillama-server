@@ -52543,7 +52543,7 @@ const data3_3: Protocol[] = [
     description: "Execution Infrastructure for On-Chain Trading.",
     chain: "Sei",
     logo: `${baseIconsUrl}/saphyre-v3.jpg`,
-    audits: "0",
+    audits: "2",
     gecko_id: null,
     cmcId: null,
     tags: ["CLMM"],
@@ -52552,6 +52552,7 @@ const data3_3: Protocol[] = [
     module: "dragonswap-sei-v3/index.js",
     twitter: "Saphyre_xyz",
     parentProtocol: "parent#dragon-swap",
+    audit_links: ["https://saphyre.xyz/audits"],
     listedAt: 1724854633,
     dimensions: {
       fees: "dragonswap-sei-v3",
