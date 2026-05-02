@@ -1113,13 +1113,12 @@ export const chainCoingeckoIds = {
   },
   "CSC": {
     geckoId: "coinex-token",
-    github: ["casinocoin"],
     symbol: "CET",
     cmcId: "2941",
     categories: ["EVM"],
     chainId: 52,
     dimensions: {
-      fees: "ripple",
+      fees: "csc",
     },
   },
   "Ergo": {
