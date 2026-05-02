@@ -5964,16 +5964,16 @@ export const chainCoingeckoIds = {
     url: "https://www.pharos.xyz/",
     chainId: 1672,
   },
-  // "Arweave": { No projects listed yet on defillama
-  //   geckoId: "arweave",
-  //   symbol: "AR",
-  //   cmcId: "5632",
-  //   twitter: "ArweaveEco",
-  //   url: "https://arweave.org/",
-  //   dimensions: {
-  //     fees: "arweave",
-  //   },
-  // },
+  "Arweave": {
+    geckoId: "arweave",
+    symbol: "AR",
+    cmcId: "5632",
+    twitter: "ArweaveEco",
+    url: "https://arweave.org/",
+    dimensions: {
+      fees: "arweave",
+    },
+  },
   "Dango Mainnet": {
     geckoId: null,
     symbol: null,
