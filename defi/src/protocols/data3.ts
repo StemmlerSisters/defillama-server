@@ -15087,7 +15087,8 @@ const data3_0: Protocol[] = [
     parentProtocol: "parent#friend-tech",
     listedAt: 1692204447,
     dimensions: {
-      fees: "friend-tech"
+      fees: "friend-tech",
+      dexs: "friend-tech"
     }
   },
   {

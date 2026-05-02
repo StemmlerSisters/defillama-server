@@ -26106,6 +26106,9 @@ const data4: Protocol[] = [
     twitter: "blockchaincap",
     parentProtocol: "parent#securitize",
     listedAt: 1757440977,
+    dimensions: {
+      fees: "blockchain-capital",
+    }
   },
   {
     id: "6693",

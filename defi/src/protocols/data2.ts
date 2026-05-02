@@ -22936,7 +22936,8 @@ const data2: Protocol[] = [
     listedAt: 1672970801,
     parentProtocol: "parent#blur",
     dimensions: {
-      fees: "blur"
+      fees: "blur",
+      dexs: "blur"
     }
   },
   {
