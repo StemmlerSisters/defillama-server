@@ -1463,5 +1463,30 @@ const data6: Protocol[] = [
     twitter: "Neronaxyz",
     listedAt: 1777660684
   },
+  {
+    id: "7777",
+    name: "Dango Perps",
+    address: null,
+    symbol: "-",
+    url: "https://dango.exchange/",
+    description:
+      "Dango Perps is the perpetual trading platform that lets users trade on the Dango ecosystem",
+    chain: "Dango",
+    logo: `${baseIconsUrl}/dango-perps.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "Derivatives",
+    chains: ["Dango"],
+    module: "dummy.js",
+    twitter: "dango",
+    parentProtocol: "parent#dango",
+    audit_links: ["https://dango-4.gitbook.io/dango-docs/audits"],
+    dimensions: {
+      derivatives: "dango",
+      fees: "dango",
+      "open-interest": "dango-oi",
+    }
+  },
 ];
 export default data6;

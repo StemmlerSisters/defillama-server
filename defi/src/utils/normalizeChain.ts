@@ -5974,6 +5974,13 @@ export const chainCoingeckoIds = {
       fees: "arweave",
     },
   },
+  "Dango": {
+    geckoId: null,
+    symbol: null,
+    cmcId: null,
+    twitter: "dango",
+    url: "https://dango.exchange/",
+  },
 } as unknown as ChainCoinGekcoIds;
 
 // We are creating the list here because, later in the code, we include historical chain labels with the same chain metadata, so, chainCoingeckoIds will have duplicate keys

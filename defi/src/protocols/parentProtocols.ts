@@ -9588,6 +9588,17 @@ const parentProtocols: IParentProtocol[] = [
     twitter: "TrustWallet",
     treasury: "trust-wallet.js",
   },
+  {
+    id: "parent#dango",
+    name: "Dango",
+    url: "https://dango.exchange/", 
+    description: "Dango is a trading-focused Layer 1 with a built-in DeFi app for spot, perps, lending, and vaults, using unified margin and onchain orderbook execution to let users trade and borrow from one collateral account",
+    logo: `${baseIconsUrl}/dango.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "dango",
+  },
 ];
 
 export default parentProtocols;
