@@ -5974,7 +5974,7 @@ export const chainCoingeckoIds = {
       fees: "arweave",
     },
   },
-  "Dango": {
+  "Dango Mainnet": {
     geckoId: null,
     symbol: null,
     cmcId: null,
@@ -6233,6 +6233,7 @@ const chainLabelMap = {
   "neuroweb": "NeuroWeb",
   "mythos": "Mythos",
   "heima": "Heima",
+  "dango": "Dango",
 } as { [key: string]: string }
 
 // When we decide to change the display name of a chain, we add the mapping for the new name here
@@ -6288,6 +6289,7 @@ const newChainLabelMap = {
   "mantra": "MANTRA",
   "orderly": "Orderly Network",
   "area": "Areum Network",
+  "dango": "Dango Mainnet",
 } as { [key: string]: string }
 
 const allChainLabelMap = {
