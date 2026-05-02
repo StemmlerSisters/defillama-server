@@ -1490,5 +1490,53 @@ const data6: Protocol[] = [
       "open-interest": "dango-oi",
     }
   },
+  {
+    id: "7778",
+    name: "UpDown",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://www.updown.xyz
+    description:
+      "Updown is a decentralized perpetual exchange on Celo, offering deep liquidity and leveraged trading up to 100x",
+    chain: "Celo",
+    logo: `${baseIconsUrl}/updown.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "Derivatives",
+    chains: ["Celo"],
+    module: "dummy.js",
+    twitter: "updownxyz",
+    audit_links: ["https://www.updown.xyz/#/auditReport"],
+    forkedFromIds: ["3365"],
+    dimensions: {
+      derivatives: "updown",
+      fees: "updown",
+    }
+  },
+  {
+    id: "7779",
+    name: "Tempo Fee AMM",
+    address: null,
+    symbol: "-",
+    url: "https://tempo.xyz/",
+    description:
+      "Tempo Fee AMM is a decentralized exchange on Tempo.",
+    chain: "Tempo",
+    logo: `${baseIconsUrl}/tempo-fee-amm.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    tags: ["AMM"],
+    chains: ["Tempo"],
+    module: "dummy.js",
+    twitter: "tempo",
+    parentProtocol: "parent#tempo-dex",
+    listedAt: 1777743055,
+    dimensions: {
+      fees: "tempo-fee-amm",
+      dexs: "tempo-fee-amm",
+    }
+  },
 ];
 export default data6;

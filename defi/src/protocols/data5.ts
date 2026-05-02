@@ -15832,6 +15832,7 @@ const data5: Protocol[] = [
     chains: ["Tempo"],
     module: "tempo-stable-dex/index.js",
     twitter: "tempo",
+    parentProtocol: "parent#tempo-dex",
     listedAt: 1775162827,
   },
   {

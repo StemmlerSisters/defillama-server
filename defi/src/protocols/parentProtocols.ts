@@ -9599,6 +9599,17 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     twitter: "dango",
   },
+  {
+    id: "parent#tempo-dex",
+    name: "Tempo Dex",
+    url: "https://tempo.xyz/", 
+    description: "Tempo Dex is a decentralized exchange on Tempo.",
+    logo: `${baseIconsUrl}/tempo-dex.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "tempo",
+  },
 ];
 
 export default parentProtocols;
