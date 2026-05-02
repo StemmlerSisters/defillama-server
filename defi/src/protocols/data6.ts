@@ -1538,5 +1538,50 @@ const data6: Protocol[] = [
       dexs: "tempo-fee-amm",
     }
   },
+  {
+    id: "7780",
+    name: "Dune Protocol",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://www.dune.supply/
+    description:
+      "DUNE is a competitive onchain mining protocol on Ethereum. Every 60 seconds, miners deploy ETH onto a 5×5 grid of 25 blocks. When the round ends, one block is selected at random onchain — miners on that block take home the pot while everyone else waits for the next round.",
+    chain: "Arbitrum",
+    logo: `${baseIconsUrl}/dune-protocol.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Gamified Mining",
+    chains: ["Arbitrum"],
+    module: "dummy.js",
+    twitter: "dunesupply",
+    listedAt: 1777743571,
+    dimensions: {
+      fees: "dune-supply",
+    }
+  },
+  {
+    id: "7781",
+    name: "Tsunami V3",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://www.nami.ink/swap
+    description:
+      "Concentrated liquidity DEX on Ink (Uniswap V3 fork). Standard 8-tier fee schedule and standard V3 pool math; no protocol-fee switch enabled.",
+    chain: "Ink",
+    logo: `${baseIconsUrl}/tsunami-v3.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    tags: ["CLMM"],
+    chains: ["Ink"],
+    module: "dummy.js",
+    forkedFromIds: ["2198"],
+    twitter: null,
+    dimensions: {
+      fees: "tsunami",
+      dexs: "tsunami",
+    }
+  },
 ];
 export default data6;
