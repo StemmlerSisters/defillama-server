@@ -17050,7 +17050,7 @@ const data2: Protocol[] = [
     gecko_id: null,
     cmcId: null,
     tags: ["AMM"],
-    chains: ["Polygon", "Kava", "Metis", "Optimism"],
+    chains: ["Polygon", "Metis", "Optimism"],
     module: "sushiswap-trident/index.js",
     twitter: "SushiSwap",
     parentProtocol: "parent#sushi",
