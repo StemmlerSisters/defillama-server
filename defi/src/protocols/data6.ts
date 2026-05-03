@@ -1704,5 +1704,25 @@ const data6: Protocol[] = [
     github: ["tizimoney"],
     listedAt: 1777850271,
   },
+  {
+    id: "7788",
+    name: "XAUE Protocol",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://xaue.com/
+    description: "XAUE is an institutional-grade decentralized asset enhancement protocol built on Ethereum. Serving as the Treasury Layer for Tether Gold (XAUt), it provides institutional holders of non-yielding assets (XAUt/Physical Gold) with a decentralized finance interest-bearing solution. XAUE aims to become a foundational anchor asset for gold and a so-called “qualified margin asset” in a decentralized finance environment",
+    chain: "Ethereum",
+    logo: `${baseIconsUrl}/xaue-protocol.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    tags: ["Commodities"],
+    chains: ["Ethereum"],
+    module: "dummy.js",
+    twitter: "Xaue_Protocol",
+    dimensions: {
+      fees: "xaue",
+    },
+  },
 ];
 export default data6;
