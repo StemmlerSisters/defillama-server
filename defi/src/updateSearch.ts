@@ -590,9 +590,10 @@ async function generateSearchList() {
   const endAt = Date.now();
   const startAt = endAt - 1000 * 60 * 60 * 24 * 90;
   // Fetch all source datasets up front. The important split:
-  // - `/lite/protocols2` supplies protocol, parent protocol, and chain entities.
-  // - `appMetadata-protocols.json` and `appMetadata-chains.json` only describe
-  //   which metric pages exist for those entities.
+  // - `/lite/protocols2` supplies protocol and parent protocol entities.
+  // - `appMetadata-chains.json` supplies chain entities and their metric pages.
+  // - `appMetadata-protocols.json` describes which metric pages exist for
+  //   protocol entities.
   // - `pages.json` supplies static frontend navigation pages.
   // - Tasty metrics provide recent route popularity for ranking within groups.
   const [
@@ -739,9 +740,9 @@ async function generateSearchList() {
 
   const protocols: Array<SearchResult> = [];
   const subProtocols: Array<SearchResult> = [];
-  const tvlChainSlugs = new Set<string>();
-  for (const chain of tvlData.chains) {
-    tvlChainSlugs.add(sluggifyString(chain));
+  const metadataChainSlugs = new Set<string>();
+  for (const chainSlug in chainsMetadata) {
+    metadataChainSlugs.add(chainSlug);
   }
 
   // Parent protocols are first-class protocol search results. Their child
@@ -818,13 +819,13 @@ async function generateSearchList() {
 
   // Some chains are represented as protocol metadata rows named `chain#slug`
   // because they have app-level dimensions such as fees/revenue, but they may
-  // not appear in `tvlData.chains`, which is the list used to create chain
-  // pages. If no chain page exists, promote that `chain#` row into protocol
-  // search so users can still reach `/protocol/:chainName` and its metric
-  // subpages. Do not use this as a generic metadata-only protocol fallback.
+  // not appear in chain app metadata. If no chain page exists, promote that
+  // `chain#` row into protocol search so users can still reach
+  // `/protocol/:chainName` and its metric subpages. Do not use this as a
+  // generic metadata-only protocol fallback.
   for (const protocolId in protocolsMetadata) {
     if (!protocolId.startsWith("chain#")) continue;
-    if (tvlChainSlugs.has(protocolId.slice("chain#".length))) continue;
+    if (metadataChainSlugs.has(protocolId.slice("chain#".length))) continue;
 
     const metadata = protocolsMetadata[protocolId];
     const name = getMetadataProtocolName(protocolId, metadata);
@@ -862,23 +863,25 @@ async function generateSearchList() {
   const rwaChainsSet = new Set<string>(rwaListData.chains ?? []);
   const chains: Array<SearchResult> = [];
   const subChains: Array<SearchResult> = [];
-  // Chain entities only come from `tvlData.chains`. App metadata can add
-  // chain metric subpages, but it should not create a chain result by itself.
-  for (const chain of tvlData.chains) {
+  // Chain entities come from app metadata. TVL data can enrich those rows, but
+  // absence from `/lite/protocols2.chains` should not hide chains that have
+  // valid app-level metric pages.
+  for (const chainSlug in chainsMetadata) {
+    const metadata = chainsMetadata[chainSlug];
+    const chain = metadata.name;
     const result = {
       id: `chain_${normalize(chain)}`,
       name: chain,
-      logo: `https://icons.llamao.fi/icons/chains/rsz_${sluggifyString(chain)}?w=48&h=48`,
+      logo: `https://icons.llamao.fi/icons/chains/rsz_${chainSlug}?w=48&h=48`,
       tvl: chainTvl[chain],
-      route: `/chain/${sluggifyString(chain)}`,
+      route: `/chain/${chainSlug}`,
       r: SEARCH_RANK.entity,
-      v: tastyMetrics[`/chain/${sluggifyString(chain)}`] ?? 0,
+      v: tastyMetrics[`/chain/${chainSlug}`] ?? 0,
       type: "Chain",
     };
 
     chains.push(result);
 
-    const metadata = chainsMetadata[sluggifyString(chain)];
     const subSections: Array<SearchResult> = [];
 
     if (metadata?.stablecoins) {
