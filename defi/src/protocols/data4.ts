@@ -16277,6 +16277,7 @@ const data4: Protocol[] = [
     chains: ["Ethereum"],
     module: "cork-v1/index.js",
     twitter: "Corkprotocol",
+    parentProtocol: "parent#cork-protocol",
     listedAt: 1748969964,
   },
   {

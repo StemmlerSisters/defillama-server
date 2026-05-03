@@ -9621,6 +9621,18 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     twitter: "Kroko_Swap",
   },
+  {
+    id: "parent#cork-protocol",
+    name: "Cork Protocol",
+    url: "https://cork.tech/",
+    description: "A programmable risk layer for onchain assets, including vault tokens, yield-bearing stablecoins, LSTs, and RWAs.",
+    logo: `${baseIconsUrl}/cork-protocol.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "Corkprotocol",
+    github: ["Cork-Technology"],
+  },
 ];
 
 export default parentProtocols;
