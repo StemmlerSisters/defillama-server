@@ -1529,7 +1529,7 @@ const data6: Protocol[] = [
     cmcId: null,
     tags: ["AMM"],
     chains: ["Tempo"],
-    module: "dummy.js",
+    module: "tempo-fee-amm/index.js",
     twitter: "tempo",
     parentProtocol: "parent#tempo-dex",
     listedAt: 1777743055,
@@ -1575,7 +1575,7 @@ const data6: Protocol[] = [
     cmcId: null,
     tags: ["CLMM"],
     chains: ["Ink"],
-    module: "dummy.js",
+    module: "tsunami-v3/index.js",
     forkedFromIds: ["2198"],
     twitter: null,
     dimensions: {
