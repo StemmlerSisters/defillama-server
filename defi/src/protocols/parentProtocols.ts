@@ -9610,6 +9610,17 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     twitter: "tempo",
   },
+  {
+    id: "parent#krokoswap",
+    name: "KrokoSwap",
+    url: " ", // pending to add url https://krokoswap.io/
+    description: "Kroko is a decentralized exchange built on the Kasplex blockchain, supporting both V2 (constant product) and V3 (concentrated liquidity) protocols with a Universal Router for unified swap execution.",
+    logo: `${baseIconsUrl}/krokoswap.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "Kroko_Swap",
+  },
 ];
 
 export default parentProtocols;
