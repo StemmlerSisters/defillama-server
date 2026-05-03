@@ -132,7 +132,7 @@ const data6: Protocol[] = [
     url: "https://grelfswap.com",
     description: "GrelfSwap is a DEX aggregator on Hedera",
     chain: "Hedera",
-    logo: `${baseIconsUrl}/grelfswap.jpg`,
+    logo: `${baseIconsUrl}/grelfswap.png`,
     audits: "0",
     gecko_id: "grelf",
     cmcId: null,
