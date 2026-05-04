@@ -681,17 +681,20 @@ const data6: Protocol[] = [
     name: "Arche",
     address: null,
     symbol: "-",
-    url: " ", // pending to add url https://arche.money
+    url: "https://arche.money",
     description: "Yield-bearing stablecoin vault aggregating best-in-class DeFi yields",
     chain: "Ethereum",
     logo: `${baseIconsUrl}/arche.jpg`,
-    audits: "0",
+    audits: "2",
     gecko_id: null,
     cmcId: null,
     category: "Yield",
     chains: ["Ethereum"],
     module: "arche-money/index.js",
     twitter: "yieldarche",
+    audit_links: [
+      "https://github.com/Kann-Audits/Kann-Audits/blob/main/reports/pdf-format/Arche-security-review-2026-05-03.pdf",
+    ],
     listedAt: 1776810661,
   },
   {
