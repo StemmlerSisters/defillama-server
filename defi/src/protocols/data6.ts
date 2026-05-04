@@ -1724,5 +1724,25 @@ const data6: Protocol[] = [
       fees: "xaue",
     },
   },
+  {
+    id: "7789",
+    name: "Plasma One",
+    address: null,
+    symbol: "-",
+    url: "https://www.plasma.to/one",
+    description: "Plasma One is a next-generation card product built on the Plasma Chain, an EVM-compatible L1 optimised for stablecoin payments and everyday spending. It combines a yield-bearing Earn product (P1USD) with gasless Checkings accounts, giving users a seamless on-chain banking experience",
+    chain: "Plasma",
+    logo: `${baseIconsUrl}/plasma-one.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "Crypto Card Issuer",
+    chains: ["Plasma"],
+    module: "dummy.js",
+    twitter: "Plasma",
+    dimensions: {
+      fees: "plasma-one",
+    },
+  },
 ];
 export default data6;

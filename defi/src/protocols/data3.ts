@@ -8754,7 +8754,8 @@ const data3_0: Protocol[] = [
     parentProtocol: "parent#sudoswap",
     listedAt: 1686344795,
     dimensions: {
-      fees: "sudoswap-v2"
+      fees: "sudoswap-v2",
+      dexs: "sudoswap-v2"
     }
   },
   {
