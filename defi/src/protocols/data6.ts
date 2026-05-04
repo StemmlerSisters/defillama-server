@@ -1744,5 +1744,23 @@ const data6: Protocol[] = [
       fees: "plasma-one",
     },
   },
+  {
+    id: "7790",
+    name: "HypeZion Finance",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://www.hypezion.com/
+    description: "Structured product protocol on Hyperliquid L1. Issues stablecoin (hzUSD) and leverage token (BullHYPE) backed by HYPE reserves",
+    chain: "Hyperliquid L1",
+    logo: `${baseIconsUrl}/hypezion-finance.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "CDP",
+    chains: ["Hyperliquid L1"],
+    module: "hypezion/index.js",
+    twitter: "0xhypezion",
+    listedAt: 1777915629,
+  },
 ];
 export default data6;
