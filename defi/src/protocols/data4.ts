@@ -20194,6 +20194,9 @@ const data4: Protocol[] = [
     twitter: "onrefinance",
     github: ["onre-finance"],
     listedAt: 1752511417,
+    dimensions: {
+      fees: "onre"
+    }
   },
   {
     id: "6433",

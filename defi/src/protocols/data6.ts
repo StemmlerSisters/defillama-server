@@ -1368,7 +1368,11 @@ const data6: Protocol[] = [
     chains: ["Canton"],
     module: "pool-party/index.js",
     twitter: "Send",
-    listedAt: 1777517069
+    listedAt: 1777517069,
+    dimensions: {
+      fees: "pool-party",
+      dexs: "pool-party",
+    }
   },
   {
     id: "7772",
@@ -1761,6 +1765,30 @@ const data6: Protocol[] = [
     module: "hypezion/index.js",
     twitter: "0xhypezion",
     listedAt: 1777915629,
+  },
+  {
+    id: "7791",
+    name: "Thaw",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://thaw.bet/
+    description: "Provably fair on-chain casino on HyperEVM with 6 games powered by Pyth Entropy for verifiable randomness",
+    chain: "Hyperliquid L1",
+    logo: `${baseIconsUrl}/thaw.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: "Luck Games",
+    chains: ["Hyperliquid L1"],
+    module: "thaw/index.js",
+    twitter: "thawdotbet",
+    audit_links: ["https://thaw.bet/peckshield-audit.pdf"],
+    oraclesBreakdown: [{name: "Pyth", type: "RNG", proof: ["https://thaw.bet"]}],
+    dimensions: {
+      fees: "thaw",
+      dexs: "thaw",
+    },
+    listedAt: 1777918603,
   },
 ];
 export default data6;
