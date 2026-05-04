@@ -18613,7 +18613,7 @@ const data4: Protocol[] = [
     twitter: "crovegasfun",
     listedAt: 1751045489,
   },
-  {
+  {  
     id: "6364",
     name: "Mineral Vault",
     address: null,
@@ -18630,6 +18630,7 @@ const data4: Protocol[] = [
     module: "mineral-vault/index.js",
     twitter: "MineralVault_",
     listedAt: 1751133823,
+    disabled: "incorrect data and RWA anyway"
   },
   {
     id: "6365",
