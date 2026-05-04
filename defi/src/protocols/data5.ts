@@ -15834,6 +15834,9 @@ const data5: Protocol[] = [
     twitter: "tempo",
     parentProtocol: "parent#tempo-dex",
     listedAt: 1775162827,
+    dimensions: {
+      dexs: "tempo-stable-dex",
+    },
   },
   {
     id: "7621",
