@@ -23542,7 +23542,7 @@ const data4: Protocol[] = [
     category: "Lending",
     chains: ["Ethereum"],
     module: "cap-money/index.js",
-    twitter: "capmoney_",
+    twitter: "CapApp",
     audit_links: ["https://github.com/cap-labs-dev/cap-audits"],
     oraclesBreakdown: [
       {
