@@ -2750,8 +2750,9 @@ const data5: Protocol[] = [
     cmcId: null,
     tags: ['Hyperliquid HIP3 Deployer'],
     chains: ["Hyperliquid L1"],
-    module: "dummy.js",
+    module: "ventuals/index.js",
     twitter: "ventuals",
+    listedAt: 1778005545,
     dimensions: {
       derivatives: "ventuals",
       fees: "ventuals",
