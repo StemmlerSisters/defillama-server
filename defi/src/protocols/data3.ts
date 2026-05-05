@@ -2930,6 +2930,9 @@ const data3_0: Protocol[] = [
     audit_links: ["https://github.com/RockX-SG/stake/blob/main/PeckShield-Audit-Report-RockXStaking-v1.0.pdf"],
     parentProtocol: "parent#bedrock",
     listedAt: 1681516422,
+    dimensions: {
+      fees: "bedrock-unieth"
+    }
   },
   {
     id: "2833",
@@ -24317,6 +24320,9 @@ const data3_1: Protocol[] = [
     twitter: "Bedrock_DeFi",
     audit_links: ["https://github.com/RockX-SG/uniiotx/blob/main/docs/PeckShield-Audit-Report-Bedrock-v1.0.pdf"],
     parentProtocol: "parent#bedrock",
+    dimensions: {
+      fees: "bedrock-uniiotx"
+    },
     listedAt: 1700221805,
   },
   {
@@ -33381,6 +33387,10 @@ const data3_2: Protocol[] = [
     module: "dinari/index.js",
     twitter: "DinariGlobal",
     listedAt: 1709208650,
+    dimensions: {
+      fees: "dinari",
+      dexs: "dinari"
+    }
   },
   {
     id: "4197",
@@ -52754,7 +52764,8 @@ const data3_3: Protocol[] = [
         adapter: "helix-helix-perp",
         genuineSpikes: [["2025-09-29", "-"]],
       },
-      "open-interest": "helix-helix-perp"
+      "open-interest": "helix-helix-perp",
+      fees: "helix-helix-perp",
     }
   },
   {
@@ -57531,7 +57542,10 @@ const data3_3: Protocol[] = [
     module: "bedrock/index.js",
     twitter: "Bedrock_DeFi",
     parentProtocol: "parent#bedrock",
-    listedAt: 1730219911
+    listedAt: 1730219911,
+    dimensions: {
+      fees: "bedrock-unibtc"
+    }
   },
   {
     id: "5296",

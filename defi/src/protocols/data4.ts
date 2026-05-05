@@ -20879,16 +20879,14 @@ const data4: Protocol[] = [
     chains: ["Solana"],
     module: "loopscale/index.js",
     twitter: "Loopscale",
-    oraclesBreakdown: [
-      {
-        name: "Pyth",
-        type: "Primary",
-        proof: ["https://github.com/DefiLlama/DefiLlama-Adapters/pull/14278"],
-      },
+    oraclesBreakdown: [{name: "Pyth",type: "Primary",proof: ["https://github.com/DefiLlama/DefiLlama-Adapters/pull/14278"],},
     ],
     audit_links: ["https://github.com/oshieldio/Publications/blob/main/Loopscale/loopscale-v1.md"],
     github: ["LoopscaleLabs"],
     listedAt: 1753201144,
+    dimensions: {
+      fees: "loopscale",
+    }
   },
   {
     id: "6462",

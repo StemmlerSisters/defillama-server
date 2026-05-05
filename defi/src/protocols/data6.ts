@@ -1871,5 +1871,23 @@ const data6: Protocol[] = [
     github: ["Alvara-Protocol"],
     listedAt: 1778005731,
   },
+  {
+    id: "7796",
+    name: "Unblock Equity",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://app.unblockequity.com/earn
+    description: "Tokenized junior-lien home-equity loans. USDC lending on Base via 24 segmented MetaMorpho V2 vaults (verification × recovery × breathing-room escrow)",
+    chain: "Base",
+    logo: `${baseIconsUrl}/unblock-equity.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: "RWA Lending",
+    chains: ["Base"],
+    module: "unblock-equity/index.js",
+    twitter: "UnblockEquity",
+    listedAt: 1778006088,
+  },
 ];
 export default data6;

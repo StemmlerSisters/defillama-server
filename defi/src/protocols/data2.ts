@@ -19575,7 +19575,8 @@ const data2: Protocol[] = [
     parentProtocol: "parent#helix",
     listedAt: 1668004664,
     dimensions: {
-      dexs: "helix-helix"
+      dexs: "helix-helix",
+      fees: "helix-helix"
     }
   },
   {
