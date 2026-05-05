@@ -17589,6 +17589,7 @@ const data4: Protocol[] = [
     address: null,
     symbol: "-",
     url: "https://powerflow.asia",
+    deadUrl: true,
     description: "Token bridge to Titan Chain; Staking products with competitive APR.",
     chain: "Ethereum",
     logo: `${baseIconsUrl}/powerflow.jpg`,
