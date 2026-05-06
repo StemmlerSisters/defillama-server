@@ -2010,5 +2010,46 @@ const data6: Protocol[] = [
       fees: "monster"
     },
   },
+  {
+    id: "7803",
+    name: "RERANGE",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://rerange.xyz
+    description: "Liquid Orders Protocol",
+    chain: "Ethereum",
+    logo: `${baseIconsUrl}/rerange.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: 'Derivatives',
+    chains: ["Ethereum", "Base"],
+    module: "dummy.js",
+    twitter: "rerange_xyz",
+    github: ["rerange-xyz"],
+    dimensions: {
+      fees: "rerange"
+    },
+  },
+  {
+    id: "7804",
+    name: "Blackhaven",
+    address: null,
+    symbol: "RBT",
+    url: "https://app.blackhaven.xyz/",
+    description: "Reserve-powered liquidity engine",
+    chain: "MegaETH",
+    logo: `${baseIconsUrl}/blackhaven.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: 'Reserve Currency',
+    chains: ["MegaETH"],
+    module: "blackhaven/index.js",
+    treasury: "blackhaven.js",
+    twitter: "blackhaven",
+    audit_links: ["https://docs.blackhaven.xyz/resources/audit"],
+    listedAt: 1778090442,
+  },
 ];
 export default data6;
