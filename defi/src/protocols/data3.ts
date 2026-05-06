@@ -5048,6 +5048,7 @@ const data3_0: Protocol[] = [
     tags: ["CLMM"],
     chains: ["Near"],
     module: "veax/index.js",
+    parentProtocol: "parent#veax",
     twitter: "veaxlabs",
     audit_links: ["https://docs.veax.com/overview/security/external-smart-contract-audits"],
     listedAt: 1683143073,
