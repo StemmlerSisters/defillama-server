@@ -1133,8 +1133,8 @@ const data6: Protocol[] = [
     twitter: "veaxlabs",
     parentProtocol: "parent#veax",
     dimensions: {
-      fees: "veax-perps",
-      derivatives: "veax-perps"
+      fees: "veax-perp",
+      derivatives: "veax-perp"
     }
   },
   {
