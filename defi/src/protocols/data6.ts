@@ -2051,5 +2051,24 @@ const data6: Protocol[] = [
     audit_links: ["https://docs.blackhaven.xyz/resources/audit"],
     listedAt: 1778090442,
   },
+  {
+    id: "7805",
+    name: "Slender",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://slender.fi/
+    description: "Slender is a noncustodial overcollateralized lending protocol on Soroban (Stellar).",
+    chain: "Stellar",
+    logo: `${baseIconsUrl}/slender.jpg`,
+    audits: "2",
+    gecko_id: null,
+    cmcId: null,
+    category: 'Lending',
+    chains: ["Stellar"],
+    module: "slender/index.js",
+    twitter: "Slender_fi",
+    audit_links: ["https://slender.fi/Slender_security_report_by_Certora.pdf"],
+    listedAt: 1778094763,
+  },
 ];
 export default data6;
