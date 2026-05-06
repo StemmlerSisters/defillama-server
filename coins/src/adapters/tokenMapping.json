@@ -16252,7 +16252,7 @@
       "symbol": "mcbBTC"
     },
     "0xdF708431162Ba247dDaE362D2c919e0fbAfcf9DE": {
-      "to": "coingecko#solv-btc",
+      "to": "coingecko#solv-protocol-solvbtc-bbn",
       "decimals": "18",
       "symbol": "mxSolvBTC"
     }
