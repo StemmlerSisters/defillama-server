@@ -8338,7 +8338,10 @@ const data5: Protocol[] = [
     module: "hastra/index.js",
     twitter: "HastraFi",
     audit_links: ["https://hastra.io/Hastra_vault-mint_&_vault-stake_Solana_Programs_Summary_Audit_Report.pdf"],
-    listedAt: 1768842285
+    listedAt: 1768842285,
+    dimensions: {
+      fees: "hastra",
+    },
   },
   {
     id: "7267",

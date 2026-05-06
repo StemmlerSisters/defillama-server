@@ -1969,5 +1969,46 @@ const data6: Protocol[] = [
     github: ["anthias-labs"],
     listedAt: 1778007858,
   },
+  {
+    id: "7801",
+    name: "GRIDer Perps",
+    address: null,
+    symbol: "-",
+    url: " ", // pending to add url https://app.grider.xyz
+    description: "GRIDer is a non-custodial grid trading platform on Hyperliquid Perps. Users connect their wallet, approve a trading-only agent wallet, and GRIDer runs grid strategies 24/7. GRIDer earns the standard 0.008% Hyperliquid builder code fee on perps trades opened through its grids",
+    chain: "Hyperliquid L1",
+    logo: `${baseIconsUrl}/grider-perps.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    tags: ['Hyperliquid Builder'],
+    chains: ["Hyperliquid L1"],
+    module: "dummy.js",
+    twitter: "griderxyz",
+    dimensions: {
+      fees: "grider-perps",
+      derivatives: "grider-perps",
+    },
+  },
+  {
+    id: "7802",
+    name: "Monster",
+    address: null,
+    symbol: "-",
+    url: "https://mnstr.xyz/",
+    description: "A physical trading card game on MegaETH",
+    chain: "MegaETH",
+    logo: `${baseIconsUrl}/monster.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: 'Physical TCG',
+    chains: ["MegaETH"],
+    module: "dummy.js",
+    twitter: "mnstr",
+    dimensions: {
+      fees: "monster"
+    },
+  },
 ];
 export default data6;

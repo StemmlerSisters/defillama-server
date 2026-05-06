@@ -6373,14 +6373,14 @@ const data2: Protocol[] = [
   },
   {
     id: "1670",
-    name: "Monster",
+    name: "Monster Gameverse",
     address: "fantom:0x152888854378201e173490956085c711f1DeD565",
     symbol: "MST",
     url: "https://www.metaland.game",
     description:
       "Metaland is the first play-to-earn game based on Andre Cronje's Rarity Manifested, a Dungeons And Dragons-inspired character creator on the Fantom Opera blockchain.",
     chain: "Fantom",
-    logo: `${baseIconsUrl}/monster.png`,
+    logo: `${baseIconsUrl}/monster-gameverse.png`,
     audits: "0",
     gecko_id: "metaland-gameverse",
     cmcId: "15395",
