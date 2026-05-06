@@ -50703,7 +50703,8 @@ const data3_3: Protocol[] = [
     module: "dummy.js",
     twitter: "tradewithPhoton",
     dimensions: {
-      fees: "photon"
+      fees: "photon",
+      dexs: "photon",
     }
   },
   {
