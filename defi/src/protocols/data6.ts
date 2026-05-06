@@ -1910,13 +1910,13 @@ const data6: Protocol[] = [
   },
   {
     id: "7798",
-    name: "Cubic",
+    name: "Cube",
     address: null,
     symbol: "-",
     url: " ", // pending to add url https://cubee.ee
-    description: "Cubic is a Solana DEX with weighted multi-token pools (up to 10 tokens) and virtual balances that let LPs concentrate liquidity within configurable price ranges. Swap fee and protocol fee share are configurable per pool",
+    description: "Cube is a Solana DEX with weighted multi-token pools (up to 10 tokens) and virtual balances that let LPs concentrate liquidity within configurable price ranges. Swap fee and protocol fee share are configurable per pool",
     chain: "Solana",
-    logo: `${baseIconsUrl}/cubic.jpg`,
+    logo: `${baseIconsUrl}/cube.jpg`,
     audits: "0",
     gecko_id: null,
     cmcId: null,
