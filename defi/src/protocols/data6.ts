@@ -1926,7 +1926,7 @@ const data6: Protocol[] = [
     twitter: "cubee_ee",
     github: ["cubee-ee"],
     dimensions: {
-      dexs: "cubic",
+      dexs: "cube",
     },
   },
   {
