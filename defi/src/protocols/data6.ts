@@ -1975,7 +1975,7 @@ const data6: Protocol[] = [
     address: null,
     symbol: "-",
     url: " ", // pending to add url https://app.grider.xyz
-    description: "GRIDer is a non-custodial grid trading platform on Hyperliquid Perps. Users connect their wallet, approve a trading-only agent wallet, and GRIDer runs grid strategies 24/7. GRIDer earns the standard 0.008% Hyperliquid builder code fee on perps trades opened through its grids",
+    description: "Non-custodial grid trading on Hyperliquid via agent wallets. Users connect their wallet and run 24/7 grid strategies, with built-in backtesting and minimal fees.",
     chain: "Hyperliquid L1",
     logo: `${baseIconsUrl}/grider-perps.jpg`,
     audits: "0",
