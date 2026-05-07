@@ -1848,6 +1848,7 @@ const data6: Protocol[] = [
     chains: ["Ethereum"],
     module: "dummy.js",
     twitter: "Deluthium",
+    disabled: "project not live yet",
     dimensions: {
       fees: "deluthium",
       aggregators: "deluthium",
