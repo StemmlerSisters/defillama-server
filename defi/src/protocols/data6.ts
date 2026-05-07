@@ -2039,7 +2039,7 @@ const data6: Protocol[] = [
     name: "Blackhaven",
     address: null,
     symbol: "RBT",
-    url: "https://app.blackhaven.xyz/",
+    url: " ", // pending to add url https://app.blackhaven.xyz/
     description: "Reserve-powered liquidity engine",
     chain: "MegaETH",
     logo: `${baseIconsUrl}/blackhaven.jpg`,
@@ -2053,6 +2053,11 @@ const data6: Protocol[] = [
     twitter: "blackhaven",
     audit_links: ["https://docs.blackhaven.xyz/resources/audit"],
     listedAt: 1778090442,
+    warningBanners: [
+      {
+        message: "Blackhaven has some red flags and users have reported concerns. Be careful.",
+        level: "alert",
+      }],
   },
   {
     id: "7805",
@@ -2172,6 +2177,44 @@ const data6: Protocol[] = [
     module: "visionboard-vault/index.js",
     twitter: null,
     listedAt: 1778176691
+  },
+  {
+    id: "7811",
+    name: "Defimarketplus",
+    address: null,
+    symbol: "-",
+    url: "https://monolith.market",
+    description: "Monolith is a permissionless protocol for creating crypto-backed stablecoins built to last: choose the collateral, oracle, and parameters, then deploy your own crypto-backed stablecoin",
+    chain: "Stacks",
+    logo: `${baseIconsUrl}/defimarketplus.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: 'CDP',
+    chains: ["Stacks"],
+    module: "defimarketplus/index.js",
+    twitter: "MonolithMarket",
+    github: ["MonolithMarket"],
+    listedAt: 1778171359
+  },
+  {
+    id: "7812",
+    name: "Orai Quant Terminal",
+    address: null,
+    symbol: "-",
+    url: "https://monolith.market",
+    description: "Monolith is a permissionless protocol for creating crypto-backed stablecoins built to last: choose the collateral, oracle, and parameters, then deploy your own crypto-backed stablecoin",
+    chain: "Stacks",
+    logo: `${baseIconsUrl}/orai-quant-terminal.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: 'CDP',
+    chains: ["Stacks"],
+    module: "orai-quant-terminal/index.js",
+    twitter: "MonolithMarket",
+    github: ["MonolithMarket"],
+    listedAt: 1778171359
   },
 ];
 export default data6;
