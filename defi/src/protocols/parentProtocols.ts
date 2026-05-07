@@ -9636,6 +9636,18 @@ const parentProtocols: IParentProtocol[] = [
     twitter: "Corkprotocol",
     github: ["Cork-Technology"],
   },
+  {
+    id: "parent#hermetica",
+    name: "Hermetica",
+    url: "https://hermetica.fi",
+    description: "Hermetica is a synthetic dollar protocol built on Stacks.",
+    logo: `${baseIconsUrl}/hermetica.jpg`,
+    gecko_id: null,
+    cmcId: null,
+    chains: [],
+    twitter: "HermeticaFi",
+    stablecoins: ["hermetica-usdh"],
+  },
 ];
 
 export default parentProtocols;

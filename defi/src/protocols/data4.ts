@@ -6069,8 +6069,8 @@ const data4: Protocol[] = [
     chains: ["Stacks"],
     module: "hermetica/index.js",
     twitter: "HermeticaFi",
+    parentProtocol: "parent#hermetica",
     audit_links: ["https://docs.hermetica.fi/usdh/audits"],
-    stablecoins: ["hermetica-usdh"],
     listedAt: 1740083754,
   },
   {

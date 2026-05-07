@@ -2089,5 +2089,25 @@ const data6: Protocol[] = [
     twitter: "risextrade",
     listedAt: 1778097214,
   },
+  {
+    id: "7807",
+    name: "Hermetica HBTC",
+    address: null,
+    symbol: "-",
+    url: "https://hermetica.fi",
+    description: "hBTC is Hermetica’s Bitcoin yield product",
+    chain: "Stacks",
+    logo: `${baseIconsUrl}/hermetica-hbtc.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: 'Anchor BTC',
+    chains: ["Stacks"],
+    module: "hermetics-hbtc/index.js",
+    twitter: "HermeticaFi",
+    parentProtocol: "parent#hermetica",
+    excludeTvlFromParent: true, // full tvl value is represented under the usdh product
+    listedAt: 1778142267
+  },
 ];
 export default data6;
