@@ -4824,7 +4824,11 @@ const data2: Protocol[] = [
     wrongLiquidity: true,
     dimensions: {
       fees: {
-        genuineSpikes: [["2024-08-05", "-"], ["2025-02-03", "-"]],
+        genuineSpikes: [
+          ["2024-08-05", "-"], 
+          ["2025-02-03", "-"],
+          ["2026-05-06", "Kelp DAO exploiter's positions liquidated"], //https://x.com/aave/status/2052100832834036187 , https://etherscan.io/tx/0xe2391ea418e16d70196ca3d77dfc836cca1096eebf65e423d52ad867b416478f
+        ],
         adapter: "aave-v3"
       }
     }
