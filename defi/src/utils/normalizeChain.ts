@@ -5989,6 +5989,9 @@ export const chainCoingeckoIds = {
     cmcId: null,
     twitter: "risechain",
     url: "https://risechain.com/",
+    dimensions: {
+      fees: "rise",
+    },
   },
 } as unknown as ChainCoinGekcoIds;
 

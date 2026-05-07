@@ -26543,7 +26543,10 @@ const data4: Protocol[] = [
     module: "HLScope/index.js",
     twitter: "securitize",
     parentProtocol: "parent#securitize",
-    listedAt: 1757615928
+    listedAt: 1757615928,
+    dimensions: {
+      fees: "hlscope",
+    },
   },
   {
     id: "6713",

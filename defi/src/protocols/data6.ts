@@ -1353,6 +1353,7 @@ const data6: Protocol[] = [
     twitter: "NextRare_cards",
     dimensions: {
       fees: "nextrare",
+      dexs: "nextrare",
     }
   },
   {
@@ -2007,7 +2008,8 @@ const data6: Protocol[] = [
     module: "dummy.js",
     twitter: "mnstr",
     dimensions: {
-      fees: "monster"
+      fees: "monster",
+      dexs: "monster",
     },
   },
   {
@@ -2088,6 +2090,10 @@ const data6: Protocol[] = [
     oraclesBreakdown: [{name: "Stork", type: "Primary", proof: ["https://docs.risechain.com/docs/risex/core/oracle#stork-oracle"]}],
     twitter: "risextrade",
     listedAt: 1778097214,
+    dimensions: {
+      "open-interest": "risex-perps-oi",
+      derivatives: "risex-perps",
+    },
   },
   {
     id: "7807",
