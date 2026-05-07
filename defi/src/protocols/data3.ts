@@ -10874,22 +10874,17 @@ const data3_0: Protocol[] = [
     tags: ["Treasury Bills"],
     chains: ["Tron"],
     oraclesBreakdown: [
-      {
-        name: "WINkLink",
-        type: "Primary",
-        proof: ["https://juststable.tronscan.org/?lang=en-US#/home","https://x.com/justinsuntron/status/1851885789116039226"],
-        endDate: '2025-05-15',
-      },
-      {
-        name: "Chainlink",
-        type: "Primary",
-        proof: ["https://juststable.tronscan.org/?lang=en-US#/home","https://x.com/justinsuntron/status/1851885789116039226"],
-        startDate: '2025-05-15',
-      },
+      {name: "WINkLink",type: "Primary",proof: ["https://juststable.tronscan.org/?lang=en-US#/home","https://x.com/justinsuntron/status/1851885789116039226"],
+        endDate: '2025-05-15',},
+      {name: "Chainlink",type: "Primary",proof: ["https://juststable.tronscan.org/?lang=en-US#/home","https://x.com/justinsuntron/status/1851885789116039226"],
+        startDate: '2025-05-15',},
     ],
     module: "stUSDT/index.js",
     twitter: "stusdtio",
     listedAt: 1688472910,
+    dimensions: {
+      fees: "stUSDT",
+    },
   },
   {
     id: "3194",

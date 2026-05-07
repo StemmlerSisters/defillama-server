@@ -2116,5 +2116,24 @@ const data6: Protocol[] = [
     excludeTvlFromParent: true, // full tvl value is represented under the usdh product
     listedAt: 1778142267
   },
+  {
+    id: "7808",
+    name: "Monolith Market",
+    address: null,
+    symbol: "-",
+    url: "https://monolith.market",
+    description: "Monolith is a permissionless protocol for creating crypto-backed stablecoins built to last: choose the collateral, oracle, and parameters, then deploy your own crypto-backed stablecoin",
+    chain: "Stacks",
+    logo: `${baseIconsUrl}/monolith-market.jpg`,
+    audits: "0",
+    gecko_id: null,
+    cmcId: null,
+    category: 'CDP',
+    chains: ["Stacks"],
+    module: "monolith-market/index.js",
+    twitter: "MonolithMarket",
+    github: ["MonolithMarket"],
+    listedAt: 1778171359
+  },
 ];
 export default data6;
