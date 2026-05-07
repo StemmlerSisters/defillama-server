@@ -5563,6 +5563,7 @@ const data: Protocol[] = [
     audit_links: ["https://doc.parrot.fi/security/"],
     openSource: false,
     stablecoins: ["parrot-usd"],
+    deadUrl: true,
   },
   {
     id: "359",
@@ -8693,6 +8694,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     parentProtocol: "parent#orion-protocol",
     audit_links: ["https://www.certik.org/projects/orionprotocol"],
     forkedFromIds: ["2197"],
+    deadUrl: true,
   },
   {
     id: "497",
@@ -10869,6 +10871,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     twitter: "ConvergenceFin",
     audit_links: ["https://www.certik.org/projects/convergencefinance"],
     forkedFromIds: ["2197"],
+    deadUrl: true,
   },
   {
     id: "596",
@@ -12173,6 +12176,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     module: "atrix.js",
     twitter: "AtrixProtocol",
     openSource: false,
+    deadUrl: true,
   },
   {
     id: "654",
@@ -25519,6 +25523,7 @@ The eWIT token is a custodial, wrapped version of the Witnet coin managed by the
     twitter: "thealphadex",
     forkedFromIds: ["2197"],
     listedAt: 1642569490,
+    deadUrl: true,
   },
   {
     id: "1286",

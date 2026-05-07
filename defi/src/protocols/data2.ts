@@ -3613,6 +3613,7 @@ const data2: Protocol[] = [
     module: "drip/index.js",
     twitter: "DRIPcommunity",
     listedAt: 1647236017,
+    deadUrl: true,
   },
   {
     id: "1544",
@@ -20934,7 +20935,8 @@ const data2: Protocol[] = [
     github: ["openbook-dex"],
     dimensions: {
       dexs: "openbook"
-    }
+    },
+    deadUrl: true,
   },
   {
     id: "2323",
@@ -25003,6 +25005,7 @@ const data2: Protocol[] = [
     dimensions: {
       fees: "hawkfi",
     },
+    deadUrl: true,
   },
   {
     id: "2512",
@@ -26065,6 +26068,7 @@ const data2: Protocol[] = [
     oracles: ["0x"],
     audit_links: ["https://github.com/Alongside-Finance/Audits"],
     listedAt: 1676985047,
+    deadUrl: true,
   },
   {
     id: "2560",

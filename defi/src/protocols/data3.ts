@@ -6473,6 +6473,7 @@ const data3_0: Protocol[] = [
     stablecoins: ["grai"],
     audit_links: ["https://docs.gravitaprotocol.com/gravita-docs/about-gravita-protocol/audits"],
     listedAt: 1684364375,
+    deadUrl: true
   },
   {
     id: "2993",
@@ -7651,6 +7652,7 @@ const data3_0: Protocol[] = [
     github: ["HashMixProject"],
     audit_links: ["https://github.com/HashMixProject/securityAudit"],
     listedAt: 1685532130,
+    deadUrl: true
   },
   {
     id: "3047",
@@ -11600,6 +11602,7 @@ const data3_0: Protocol[] = [
     twitter: "Blue__Spade",
     forkedFromIds: ["337"],
     listedAt: 1689244336,
+    deadUrl: true
   },
   {
     id: "3228",
@@ -28226,6 +28229,7 @@ const data3_1: Protocol[] = [
     twitter: "BuildOnLumia",
     parentProtocol: "parent#orion-protocol",
     listedAt: 1703860590,
+    deadUrl: true
   },
   {
     id: "3977",
@@ -33131,6 +33135,7 @@ const data3_2: Protocol[] = [
     github: ["haiko-xyz"],
     audit_links: ["https://haiko-docs.gitbook.io/docs/security-and-audits"],
     listedAt: 1709071097,
+    deadUrl: true
   },
   {
     id: "4185",
@@ -38066,6 +38071,7 @@ const data3_2: Protocol[] = [
     module: "MeowMiner/index.js",
     twitter: "MeowCatMiner",
     listedAt: 1711801555,
+    deadUrl: true
   },
   {
     id: "4408",
@@ -44026,6 +44032,7 @@ const data3_2: Protocol[] = [
     twitter: "Kalax_io",
     audit_links: ["https://beosin.com/audits/Kalax_202405211051.pdf"],
     listedAt: 1716652747,
+    deadUrl: true
   },
   {
     id: "4678",
@@ -46979,7 +46986,8 @@ const data3_3: Protocol[] = [
     dimensions: {
       fees: "mintswap",
       dexs: "mintswap"
-    }
+    },
+    deadUrl: true
   },
   {
     id: "4812",
@@ -49948,7 +49956,8 @@ const data3_3: Protocol[] = [
     listedAt: 1722870499,
     dimensions: {
       dexs: "saturnswap"
-    }
+    },
+    deadUrl: true
   },
   {
     id: "4947",
@@ -60781,7 +60790,8 @@ const data3_3: Protocol[] = [
     chains: ["Neutron"],
     module: "nfazone/index.js",
     twitter: "nfadotzone",
-    listedAt: 1732831797
+    listedAt: 1732831797,
+    deadUrl: true
   },
   {
     id: "5441",

@@ -1329,6 +1329,7 @@ const data5: Protocol[] = [
     module: "vaultedge/index.js",
     twitter: "VaultedgeFi",
     listedAt: 1762287949,
+    deadUrl: true,
   },
   {
     id: "6950",
@@ -16151,6 +16152,7 @@ const data5: Protocol[] = [
     dimensions: {
       dexs: "farmcats-market",
     },
+    deadUrl: true
   },
   {
     id: "7636",

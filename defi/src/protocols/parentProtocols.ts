@@ -7104,8 +7104,8 @@ const parentProtocols: IParentProtocol[] = [
   {
     id: "parent#hypurfi",
     name: "HypurrFi",
-    url: "https://hypurrfi.com/points?af=defillama",
-    referralUrl: "https://hypurrfi.com/points?af=defillama",
+    url: "https://hypurrfi.com/",
+    //referralUrl: "https://hypurrfi.com/points?af=defillama",
     description: "Collateralize borrowing positions and loop and lever up your yield",
     logo: `${baseIconsUrl}/hypurrfi.png`,
     gecko_id: null,
