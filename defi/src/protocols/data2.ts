@@ -1685,7 +1685,8 @@ const data2: Protocol[] = [
     listedAt: 1645643108,
     dimensions: {
       dexs: "claimswap"
-    }
+    },
+    deadUrl: true,
   },
   // {
   //   id: "1456",
@@ -11164,7 +11165,8 @@ const data2: Protocol[] = [
         message: "Avault has some red flags and multiple users have reported concerns. Be careful.",
         level: "alert",
       }
-    ]
+    ],
+    deadUrl: true,
   },
   {
     id: "1888",
@@ -24452,6 +24454,7 @@ const data2: Protocol[] = [
     forkedFromIds: ["2197"],
     parentProtocol: "parent#hiveswap",
     listedAt: 1675271563,
+    deadUrl: true,
     dimensions: {
       dexs: "hiveswap"
     }

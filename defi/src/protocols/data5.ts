@@ -3064,6 +3064,7 @@ const data5: Protocol[] = [
     ],
     github: ["AltaiExchange"],
     listedAt: 1763830355,
+    deadUrl: true,
   },
   {
     id: "7024",
@@ -12703,6 +12704,7 @@ const data5: Protocol[] = [
       },
     ],
     listedAt: 1772205522,
+    deadUrl: true,
   },
   {
     id: "7474",

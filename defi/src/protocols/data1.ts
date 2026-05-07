@@ -3346,6 +3346,7 @@ const data: Protocol[] = [
     audit_links: ["https://wasabix-finance.gitbook.io/wasabix_finance/code/certik-audit-report"],
     forkedFromIds: ["204"],
     github: ["wasabi-swap-team"],
+    deadUrl: true,
   },
   {
     id: "259",

@@ -2136,6 +2136,7 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     github: ["claimswap"],
     twitter: "claimswap",
+    deadUrl: true,
   },
   {
     id: "parent#swapscanner",
@@ -3886,6 +3887,7 @@ const parentProtocols: IParentProtocol[] = [
     cmcId: null,
     chains: [],
     twitter: "hiveswap_io",
+    deadUrl: true,
   },
   {
     id: "parent#claystack",
@@ -4105,6 +4107,7 @@ const parentProtocols: IParentProtocol[] = [
     cmcId: null,
     chains: [],
     twitter: "ThrusterFi",
+    deadUrl: true,
   },
   {
     id: "parent#monoswap",
