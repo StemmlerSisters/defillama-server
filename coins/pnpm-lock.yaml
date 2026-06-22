@@ -51,8 +51,8 @@ importers:
         specifier: ^2.1.0
         version: 2.4.0
       ajv:
-        specifier: ^6.12.6
-        version: 6.12.6
+        specifier: ^8.18.0
+        version: 8.18.0
       axios:
         specifier: ^1.6.7
         version: 1.12.2
